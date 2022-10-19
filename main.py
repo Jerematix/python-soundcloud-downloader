@@ -87,7 +87,7 @@ def main(url: str):
 
         browser.get(downloader_url)
 
-    time.sleep(30)
+    time.sleep(120)
 
     browser.close()
 
